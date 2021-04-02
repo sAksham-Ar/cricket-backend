@@ -22,6 +22,3 @@ def commentary(id):
 def scorecard(id):
     return json.dumps(c.scorecard(id))
 
-
-if __name__ == "__main__":
-    app.run(host="localhost")
